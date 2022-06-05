@@ -1,16 +1,16 @@
 // Code your solutions in this file
 const gifts = ["teddy bear", "drone", "doll"];
 
-const newArray =[];
+const nArray2 =[];
 
 function writeCards(stringArray, eventName) {
   for (let i = 0; i < stringArray.length; i++) {
-    newArray.push(
+    nArray2.push(
       `Thank you, ${stringArray[i]}, for the wonderful ${eventName} gift!`
     );
     
   }
-  return newArray;
+  return nArray2;
 }
 
 function wrapGifts(gifts) {
